@@ -1,0 +1,108 @@
+﻿<html>
+	<head>
+			<link rel="shortcut icon" href="./../multimedia/favicon.ico">
+			<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+			<meta name="author" content="Jose Francisco Diaz Rodriguez">
+			<title>battlefield</title>
+			<link rel="stylesheet" href="Estilos.css">
+			<link rel="stylesheet" href="fonts.css">
+			<script src="./js/scroll.js"></script>
+			<!-- Preguntar antes de cerrar la pag -->
+			<script type="text/javascript">
+		
+			window.onunload = function () {
+        __doPostBack("EndSession", "");
+   		 }	
+   		 	window.onbeforeunload = function () {
+            return "¿Estas seguro que quieres abandonar mi FABULOSA e INCREIBLE pagina?";
+        }
+	
+		</script> 
+	</head>
+	
+	<body>
+	<!-- Mensaje de bienvenida----------------------------->
+	<body onload="JavaScript:alert('¡Bienvenido a mi pagina web!')">  
+	<!--Mensaje para navegadores que no soporten javascript -->
+	<noscript>
+		<p>Bienvenido a mi INCREIBLE Sitio</p>
+		<p>La página que estás viendo requiere para su funcionamiento el uso de JavaScript. 
+			Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo.</p>
+	</noscript>
+
+	
+	
+	
+	<header>
+		<!--------------------------------------------- menu de navegacion--------------------------------- //-->
+		<nav>
+				<ul id=menu>
+					<li><a href="./InicioBattelfield/Entrada.html" target=_blank>Inicio</a>
+					<li><a href="./Formulario.html" target=_blank>Formulario</a>
+					<li><a href="./Mapa.html" target=_blank>Mapa de imagen</a>
+					<li><a href="./../Curriculum.html" target=_blank>Curriculum</a>
+												<ul>
+									<a href="https://www.youtube.com/channel/UC8cfo2tgtXLqPD3znWi_VRA" target=_blank>Canal de Youtube</a>			
+								</ul>
+					<li><a href="#">Foros</a>
+							<ul>
+									<a href="http://www.3djuegos.com/foro-de/109536/0/battlefield-1/" target=_blank>Ps4</a>
+									<a href="http://www.3djuegos.com/foro-de/109535/0/battlefield-1/" target=blank>PC</a>
+			
+		</nav>	
+	</header><br><br><br><br><br><br><br>
+	
+	
+		<!------------------------------------------------------------SLIDER---------------------------------------------------------------- //-->
+	
+	<div class="main">
+		<div class="slides">
+			<img src="./imagenesbat/bat1fondo.png" alt=""/>
+			<img src="./imagenesbat/fondi.jpg" alt=""/>
+			<img src="./imagenesbat/si.jpg" alt=""/>
+			<img src="./imagenesbat/rendition.jpg" alt=""/>
+			<iframe width="795" height="692" src="https://www.youtube.com/embed/c7nRTF2SowQ" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<span class="ir-arriba"></span>
+	<div>
+		<img src="./imagenesbat/armas8.png" alt=""/>
+		<iframe class=armas width="33%" height="250" src="https://www.youtube.com/embed/1AkhecRGA-g" frameborder="40" allowfullscreen></iframe>
+		<iframe class=armas width="32%" height="250" src="https://www.youtube.com/embed/JJd8EhjRDN0" frameborder="40" allowfullscreen></iframe>
+		<iframe class=armas width="32%" height="250" src="https://www.youtube.com/embed/eo6cWfePMz8" frameborder="40" allowfullscreen></iframe>
+		</div>
+
+	<!-- Footer con redes sociales //-->
+	<footer><marquee>
+	<a href="https://www.youtube.com/channel/UC8cfo2tgtXLqPD3znWi_VRA" target=blank"><img src="./../multimedia/yt.png" width=40 height=40></a>
+	<a href="http://twitter.com" target=blank"><img src="./../multimedia/tw.png" width=40 height=40></a>
+	<a href="http://facebook.com" target=blank"><img src="./../multimedia/fc.png" width=40 height=40></a>
+	<a href="http://instagram.com" target=blank"><img src="./../multimedia/i.png" width=30 height=30></a>
+	
+</footer>
+</marquee>
+	
+	<!---------------------------------------------------Script slider-------------------------------------------------------------------- //-->
+	
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.slides.js"></script>
+	<script>
+	
+	$(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+      effect: "slide",
+      interval: 3000,
+      auto: true,  
+      swap: true,
+      pauseOnHover: false,  
+      restartDelay: 2500   
+    }
+  });
+});
+	
+	</script>
+	
+	</body>
+	</html>

@@ -1,0 +1,150 @@
+*{
+    background:url(./imagenesform/guerra21.jpg);
+
+}
+    
+
+h1{
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+}
+
+form{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 800px;
+	margin-top: 2.8rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.field{
+	display: flex;
+	flex-direction: column;
+	width: 14rem;
+	margin: 0.5rem 0;
+}
+
+.field label{
+	font-size: 1rem;
+	margin-bottom: 0.2rem;
+	color: black;
+}
+
+.field input{
+	font-size: 1.1rem;
+	height: 2.2rem;
+	padding-left: 0.5rem;
+	border: 2px ;
+	border-radius: 5px
+}
+
+
+.field select{
+	font-size: 1.1rem;
+	width: 12rem;
+	height: 2.6rem;
+	padding-left: 0.5rem;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.textBox{
+	display: flex;
+	flex-direction: column;
+	width: 25rem;
+	margin: 0.75rem 0;
+}
+
+textarea{
+	font-size: 1.1rem;
+	max-width: 100%;
+	height: 5rem;
+	max-height: 15rem;
+	padding-top: 0.5rem;
+	padding-left: 0.5rem;
+    border: 2px solid black;
+	border-radius: 5px;
+}
+
+.textBox label{
+	font-size: 0.9rem;
+	margin-bottom: 0.2rem;
+	color: black;
+}
+
+.sino{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 20rem;
+	margin: 0.75rem 0;
+}
+
+.sino label{
+	font-size: 0.9rem;
+	margin-bottom: 0.2rem;
+	color: black;
+}
+
+.sino div{
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	padding-left: 0.5rem;
+}
+
+.sino div input{
+	width: 1rem;
+	height: 1rem;
+}
+
+.submit{
+	display: flex;
+	justify-content: right;
+	width: 20%;
+	margin-top: 1.75rem;
+	margin-left: 14.05rem;
+}
+
+.submit2{
+	display: flex;
+	justify-content: left;
+	width: 30%;
+	margin-top: 1.75rem;
+	margin-right: 9.05rem;
+}
+
+.submit button{
+	font-size: 1.1rem;
+	padding: 1rem 1.5rem;
+	cursor: pointer;
+    border: 2px solid black;
+	border-radius: 4px;
+	background-color: lightcyan;
+}
+
+.submit2 button{
+	font-size: 1.1rem;
+	padding: 1rem 1.5rem;
+	cursor: pointer;
+    border: 2px solid black;
+	border-radius: 4px;
+	background-color: red;
+}
+
+.contenedorOculto{
+    display: none;
+    border: 3px solid;
+    padding: 5px;
+    padding-left: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}

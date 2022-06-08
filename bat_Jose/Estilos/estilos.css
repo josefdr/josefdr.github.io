@@ -1,0 +1,154 @@
+﻿
+
+
+
+body{
+/*degradado del color */
+background: rgb(228,245,252); 
+background: -moz-linear-gradient(-45deg, rgba(228,245,252,1) 0%, rgba(191,232,249,1) 50%, rgba(159,216,239,1) 51%, rgba(42,176,237,1) 100%); 
+background: -webkit-linear-gradient(-45deg, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%); 
+background: linear-gradient(135deg, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=1 );
+}
+
+header{
+	
+	margin:auto;
+	width:25%;
+	font-family: "arial", serif;
+}
+
+/*menu de navegacion */
+#menu{
+	
+	list-style:none;
+}
+
+nav li a{
+
+	border-radius: 20px;
+	font-family: Hard Western;
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	/*tamaño */
+	padding:10px 15px;
+	/*para que no se sobrepongan las casillas */
+	display:block;
+	
+}
+
+nav ul li{
+	 float:left;
+}
+
+
+/*para que aparezca la casilla con color al pasar el puntero */
+nav li a:hover {
+	background-color:#434343;
+	/* borde abajo */
+	border-bottom: 6px solid #F1948A;
+	display:block;
+}
+
+nav ul li ul{
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+nav li:hover > ul{
+	display:block;
+}
+/*menu de navegacion. */
+
+
+#curriculum{
+
+	background-image: url("./../multimedia/degra.jpg");
+	font-family: Hard Western;
+	font-size: x-large;
+	border-radius: 15px;
+}
+	
+footer{
+
+/*Meter imagen de fondo	*/
+	background-image: url("./../multimedia/degra.jpg");
+	/*margenes al div */
+	margin-left:40px;
+	
+}
+
+.fondoymargen{
+	/*sombras del div */
+	-webkit-box-shadow: 10px -5px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px -5px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px -5px 22px 0px rgba(0,0,0,0.75);
+	background-color: #F8F9F9;
+	font-family: "arial", serif;
+	/*bordes */
+	border-top: 4px solid #F5B7B1;
+	border-right: 4px solid #F5B7B1;
+	border-bottom: 4px solid #F5B7B1;
+	border-left: 4px solid #F5B7B1;
+	border-radius: 20px;
+	
+}
+		
+#fotomia{
+	/* flota a la izq */
+	float: left;
+	/*para poner bordes a los divs */
+	border-top: 4px solid #F5B7B1;
+	border-right: 4px solid #F5B7B1;
+	border-bottom: 4px solid #F5B7B1;
+	border-left: 4px solid #F5B7B1;
+	/*redondear los bordes de las cajas */
+	border-radius: 15px;
+	}
+	
+	/*timeline twitter */
+	
+aside{
+	float:right;
+	margin-top:20px;
+}	
+	
+	/* clase boton twitter
+a.twitter-follow-button{
+	
+	padding-left:40%
+	*/
+}
+
+/*boton arriba con java 
+.ir-arriba {
+	display:inline-block;
+	padding:20px;
+	background:#024959;
+	font-size:15px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:15px;
+	right:15px;
+	*/
+	
+	
+
+	
+
+ 
+
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
